@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="ee73f767a31d9eff2b0e4124b7158df1cef5c13837364d589a3264a79db64d34.html">Registro De Usuario En Utest</a></span>
+                > <span class="truncate-60"><a
+                    href="35d9501305837a9ddaf2e837ba39539cbd883c2081f7bb83cfc5a4ef26854287.html">Yair se registra en Utest </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-04-2022 05:13</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registro De Usuario En Utest </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Yair se registra en Utest
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="cf6d4aee299022766afd8264d3d14c7cc7133dd69ed39d1ff191b0b3b721a377.png" title=" Given Yair busca registrarse en Utest para acceder a sus beneficios" width="1024"/>
+                <img src="cf6d4aee299022766afd8264d3d14c7cc7133dd69ed39d1ff191b0b3b721a377.png" title=" Yair open up" width="1024"/>
+                <img src="cf6d4aee299022766afd8264d3d14c7cc7133dd69ed39d1ff191b0b3b721a377.png" title=" Yair opens the Utest page" width="1024"/>
+                <img src="cf6d4aee299022766afd8264d3d14c7cc7133dd69ed39d1ff191b0b3b721a377.png" title=" Yair open up (completed)" width="1024"/>
+                <img src="89823c76b0ad2e881c81670a7e3555303c07e9dbbaac16c7acab444e0e6da98c.png" title=" Yair register" width="1024"/>
+                <img src="89823c76b0ad2e881c81670a7e3555303c07e9dbbaac16c7acab444e0e6da98c.png" title=" Yair clicks on Boton que nos lleva al formulario de registro" width="1024"/>
+                <img src="89823c76b0ad2e881c81670a7e3555303c07e9dbbaac16c7acab444e0e6da98c.png" title=" Yair register (completed)" width="1024"/>
+                <img src="89823c76b0ad2e881c81670a7e3555303c07e9dbbaac16c7acab444e0e6da98c.png" title=" Given Yair busca registrarse en Utest para acceder a sus beneficios (completed)" width="1024"/>
+                <img src="4229fee86ec3174e9bf7b7044f4b63be520ddcddba3eb6261fa53233b6fd8a38.png" title=" When Ingrese los datos solicitados por el formulario" width="1024"/>
+                <img src="4229fee86ec3174e9bf7b7044f4b63be520ddcddba3eb6261fa53233b6fd8a38.png" title=" Yair ingresar datos" width="1024"/>
+                <img src="4229fee86ec3174e9bf7b7044f4b63be520ddcddba3eb6261fa53233b6fd8a38.png" title=" Yair enters 'Miller' into Campo para Ingresar el Nombre del usuario" width="1024"/>
+                <img src="4c148bbaafc91aac55a059c61d30db9d0ac3f2fc0c1d252545f8b5ba20c1dcf0.png" title=" Yair enters 'Arias' into Campo para Ingresar el Apellido del usuario" width="1024"/>
+                <img src="5c8d06474ec3aa77b137f46507ff4a47a0c1ed22f63df79c0b21b86e21b0b354.png" title=" Yair enters 'miller555551545155@gmail.com' into Campo para Ingresar el Email del usuario" width="1024"/>
+                <img src="68b15b8626d252a7a33da311163f9dd1257339a12dcbafae5c8f148d6021fc5e.png" title=" Yair select September on Campo para Ingresar el Mes de nacimiento del usuario" width="1024"/>
+                <img src="53bb3efbdb6f4413e2a0d4ae319f548bf033efb1742d91ac7a41ac2750bd9bc7.png" title=" Yair selects index 16 in Campo para Ingresar el Dia de nacimiento del usuario" width="1024"/>
+                <img src="9060434822943da7be8f493ac7d54ecc9ef981040c99ebae255dc4636c54b33f.png" title=" Yair select 1999 on Campo para Ingresar el A&Atilde;&plusmn;o de nacimiento del usuario" width="1024"/>
+                <img src="a12b3c9250040d1f9a68970546dbdf9e6b4f80c9627f74bb7fe05a4a7af1318e.png" title=" Yair enters 'Spanish' into Campo para Ingresar Idiomas del usuario" width="1024"/>
+                <img src="bc2708034b1a2b26c59a5fb13d8bfabf10d058db05116af9e2ffc77513fcb1a2.png" title=" Yair types 'ENTER' in Campo para Ingresar Idiomas del usuario" width="1024"/>
+                <img src="c642c3d2453dabf8cba93342492525b3daddc2984c99db6c218fed2e9116a021.png" title=" Yair clicks on Boton para pasar a la siguiente pagina del formulario" width="1024"/>
+                <img src="c642c3d2453dabf8cba93342492525b3daddc2984c99db6c218fed2e9116a021.png" title=" Yair ingresar datos (completed)" width="1024"/>
+                <img src="f4d2492e433b08fde43e882560004d503226ddc023942718229d82f8595f447c.png" title=" Yair ingresar datos ubicacion" width="1024"/>
+                <img src="f4d2492e433b08fde43e882560004d503226ddc023942718229d82f8595f447c.png" title=" Yair enters 'Cali' into Campo para Ingresar la ciudad del usuario" width="1024"/>
+                <img src="abddeddf564918f29a1810416b78256e52c0038af15eb7f331b5d4d1131624f0.png" title=" Yair types 'ARROW_DOWN' in Campo para Ingresar la ciudad del usuario" width="1024"/>
+                <img src="dee56b7e2191a154242b7cb4c59a8d1b492c725784ee8eef8f802e8997312165.png" title=" Yair types 'ENTER' in Campo para Ingresar la ciudad del usuario" width="1024"/>
+                <img src="aaa20c42f032c9c41b120941271d83264459c5991e20f9edaea1b6bcdc299bb2.png" title=" Yair enters '111931' into Campo para Ingresar el codigo postal del usuario" width="1024"/>
+                <img src="39cac2e405a42e7407d3d186ba360e50670591831eafbd11471cfcc1ead91179.png" title=" Yair clicks on Campo para dar click al objeto country" width="1024"/>
+                <img src="eaa89dcc7944e46f492deaccbd9efe462c3505ec4f7d2d867ba81c1b301423c5.png" title=" Yair enters 'Colombia' into Campo para ingresar el pais del usuario" width="1024"/>
+                <img src="687281634fac2e8bde68c4a972cef5b96630a70ef2c3742e6865253324422c85.png" title=" Yair types 'ARROW_DOWN' in Campo para ingresar el pais del usuario" width="1024"/>
+                <img src="1cb608ff1dea11fcdfdf426cb7fa974830a02b4815c2fef9aedc0d655625f371.png" title=" Yair types 'ENTER' in Campo para ingresar el pais del usuario" width="1024"/>
+                <img src="29255d6c4f4fcd8487b429532f760c8b56468a99582e8bb6d762d8bfdf7b00c2.png" title=" Yair clicks on Boton para pasar a la siguiente etapa del formulario" width="1024"/>
+                <img src="29255d6c4f4fcd8487b429532f760c8b56468a99582e8bb6d762d8bfdf7b00c2.png" title=" Yair ingresar datos ubicacion (completed)" width="1024"/>
+                <img src="4759451bebc9d73cbf3c064bcfb55f082923de9b007e2b1acfe2457f256a0d68.png" title=" Yair ingresar datos so" width="1024"/>
+                <img src="4759451bebc9d73cbf3c064bcfb55f082923de9b007e2b1acfe2457f256a0d68.png" title=" Yair clicks on Hacer click en el OS del Movil del usuario" width="1024"/>
+                <img src="2e455d8c52c1b739a3c7a28ed5b578c48a539a974a4e3881fef683a7cd2e78e0.png" title=" Yair enters 'Debian' into Ingresar el OS del usuario" width="1024"/>
+                <img src="a7d8267f738250e19508cb1f98c0b3cdcf94593c4e2083df8d28b8cd3e9126e5.png" title=" Yair types 'ENTER' in Ingresar el OS del usuario" width="1024"/>
+                <img src="e88df1082a52cf5c1b9f1074e413b764c89b7c221be363bb2a2f638db9527347.png" title=" Yair clicks on Hacer click en la version del OS del usuario" width="1024"/>
+                <img src="3c96fd09fe51f4dc979ce35d8df335a3b24a4bedf6c0e44b269992ab8294a47d.png" title=" Yair enters 'Debian 11.2' into Ingresar la version del OS del usuario" width="1024"/>
+                <img src="a93c520df701e45595e9efa77019ec6aff39f065d6877729626f6fddbcb7ec40.png" title=" Yair types 'ENTER' in Ingresar la version del OS del usuario" width="1024"/>
+                <img src="31936480bd0d77dca8a1857f359bcb0c3ba734bf4bb38f9d3a995ef24541ca34.png" title=" Yair clicks on Hacer click en el lenguaje del OS del usuario" width="1024"/>
+                <img src="99c455dc7922536a29c884baea757d18695ca4becca809f1c2e553e5b3d02725.png" title=" Yair enters 'Spanish' into Ingresar el lenguaje del OS del usuario" width="1024"/>
+                <img src="4e9c4fbae03fef176853ce173adcadb9db97047e01f2b8931ef1dbb3e311c205.png" title=" Yair types 'ENTER' in Ingresar el lenguaje del OS del usuario" width="1024"/>
+                <img src="fbecfa89138a2d5f1fc7c14bc5c0ac2e51747018e3edce9852a6f61219cd4560.png" title=" Yair clicks on Hacer click en la marca del movil del usuario" width="1024"/>
+                <img src="014951965f6443c97e19cca37844f08c68d21c2885e7f24f20910fa47ff58256.png" title=" Yair enters 'Asus' into Ingresar la marca del  movil del usuario" width="1024"/>
+                <img src="4f84597b50ca4474d9adad964d9b500a60e0f451935f744130916966a77f8ea1.png" title=" Yair types 'ENTER' in Ingresar la marca del  movil del usuario" width="1024"/>
+                <img src="6e4484aeb90f4849f5ba62aef6355ba3684bb7e5a3f6bda0021c270857027b20.png" title=" Yair clicks on Hacer click en el modelo del movil del usuario" width="1024"/>
+                <img src="a223589b21aebf794ffce92c54ae7ce3bcb75c257806bed880a35a27d91207e1.png" title=" Yair enters 'MeMO' into Ingresar el modelo del movil del usuario" width="1024"/>
+                <img src="f27ea4a698e57a60e8477ed6f3a1dde4fb3ac421d538ee64652b313a04b768c9.png" title=" Yair types 'ENTER' in Ingresar el modelo del movil del usuario" width="1024"/>
+                <img src="6b37df281fe46901081cc31be205f7cb786188d02a5f7497a92e3a3f72f3b2a1.png" title=" Yair clicks on Hacer click en el OS del movil del usuario" width="1024"/>
+                <img src="3722ad7d1a9200c8a6a56bf059e8e45b3347d7ff45f694ba104831218e161d4b.png" title=" Yair enters 'Android 3.1' into Ingresar el OS del movil del usuario" width="1024"/>
+                <img src="1bade0ad4002260ab1445154f4a555875287495514ea762e628b466dcb448eef.png" title=" Yair types 'ENTER' in Ingresar el OS del movil del usuario" width="1024"/>
+                <img src="de770f24dffc79f2732ea8017a75acf2bf1f15f14186a2c40c44a5a943b7bb7c.png" title=" Yair clicks on Boton para avanzar a la siguiente seccion del formulario" width="1024"/>
+                <img src="de770f24dffc79f2732ea8017a75acf2bf1f15f14186a2c40c44a5a943b7bb7c.png" title=" Yair ingresar datos so (completed)" width="1024"/>
+                <img src="3044186e1dca0f6128f82871bd197118be83e67f482a5f570e5922f289831330.png" title=" Yair crear clave" width="1024"/>
+                <img src="3044186e1dca0f6128f82871bd197118be83e67f482a5f570e5922f289831330.png" title=" Yair enters 'Speedmost03' into Crear clave del usuario" width="1024"/>
+                <img src="ca2ff826574a6a7d661a349183834d584ee55cfbfe84d515965e7f5d9e52d4db.png" title=" Yair enters 'Speedmost03' into Confirmar clave del usuario" width="1024"/>
+                <img src="700eff769cd7e9eb4a5b2ada9464a493fc842b870ef2ee3ae62ab4611e1852af.png" title=" Yair clicks on Aceptar terminos de uso de Utest" width="1024"/>
+                <img src="096df7ab58fef63052b3867798427cfefa899d8f4fd9c224c5c40b029bcd8e76.png" title=" Yair clicks on Aceptar terminos de privacidad de Utest" width="1024"/>
+                <img src="69955b20d7fe8588d5c80eba6d0c60a26cf45460abd5020e08fdf5f49552869c.png" title=" Yair clicks on Boton para terminar el proceso de registro" width="1024"/>
+                <img src="69955b20d7fe8588d5c80eba6d0c60a26cf45460abd5020e08fdf5f49552869c.png" title=" Yair crear clave (completed)" width="1024"/>
+                <img src="69955b20d7fe8588d5c80eba6d0c60a26cf45460abd5020e08fdf5f49552869c.png" title=" When Ingrese los datos solicitados por el formulario (completed)" width="1024"/>
+                <img src="5956d8205b99d4f64003455a4a1d4aedeb6252d75342ea152d8ed9eeaec75a80.png" title=" Then Yair se registra en Utest correctamente" width="1024"/>
+                <img src="5956d8205b99d4f64003455a4a1d4aedeb6252d75342ea152d8ed9eeaec75a80.png" title=" Then answer utest" width="1024"/>
+                <img src="5956d8205b99d4f64003455a4a1d4aedeb6252d75342ea152d8ed9eeaec75a80.png" title=" Then Yair se registra en Utest correctamente (completed): <span class='success-color'>SUCCESS</span>" width="1024"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
